@@ -128,7 +128,7 @@
 }
 
 .content .profile-picture{
-    background-image: url("/images/profile_picture_black.png");
+    background-image: url("../images/profile_picture_black.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-right: .3rem solid rgb(202, 194, 194);
