@@ -127,6 +127,7 @@
 
 .content p{
     padding: 2rem;
+    font-family: system-ui;
 }
 
 .content .profile-picture{
@@ -152,6 +153,7 @@
     background-color: #353b48;
     color: white;
     padding: 3rem;
+    font-family: monospace;
 }
 
 /* icon */
@@ -175,6 +177,7 @@
 
 
 #download-cv{
+    font-family: 'Lobster';
     color: white;
     background-color: #3c3f46;
     border: none;
@@ -211,6 +214,7 @@
 }
 
 .content2 .employment .employment-date,.education-date{
+    font-family: 'Lobster',sans-serif;
     background-color: #b3e4dd;
     border: 1px solid black;
     border-radius: 2rem;
@@ -223,6 +227,14 @@
 .content2 .employment p,.education p{
     margin: 2rem;
     font-style: italic;
+}
+
+.content2 .employment li,.education li{
+   font-size: .9rem;
+}
+
+.content2 li{
+    font-family: 'Philosopher', sans-serif;
 }
 
 
@@ -243,8 +255,13 @@
 }
 
 .content2 .skills-header{
-    padding-top: 3rem;
-    padding-left: 2rem;
+    font-family: 'FontAwesome','Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: .2rem;
+    text-decoration-color: rgb(7, 147, 172);
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 .content2 .personal-skills li{
@@ -260,6 +277,9 @@
 .content2 .skills h5{
     list-style-type: none;
     margin-left: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+
 }
 
 .bar{ /*style the bar*/
@@ -290,6 +310,11 @@
     border-top:  .3rem solid rgb(202, 194, 194);
 }
 
+.content2 .contact-form .subheader-center{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .content2 .contact-form input[type=text],input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
@@ -299,9 +324,13 @@
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-family: 'Arapey';
+    font-size: 1rem;
   }
   
   .content2 .contact-form input[type=submit],[type=reset] {
+    font-family: 'Arapey';
+    font-size: 1rem;
     background-color: #1886cf;
     color: white;
     padding: 12px 20px;
@@ -311,7 +340,8 @@
   }
   
   .content2 .contact-form input[type=submit]:hover,[type=reset]:hover {
-    background-color: #00e1f1;
+    background-color: #0295f7;
+    color: black;
   }
 
   #modal{
@@ -387,7 +417,7 @@
 }
 
 .subheader-center{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arial','Open Sans', sans-serif;
 	font-size: 3em;
 	font-weight: bolder;
 	text-transform: uppercase;
@@ -400,16 +430,20 @@
 .subcontent{
     padding-top: 1rem;
     padding-left: 3rem;
+    font-family: monospace,sans-serif;
 }
 
 .content2 .subheader{
-    font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
+    font-family: 'FontAwesome','Open Sans', sans-serif;
+	font-size: 1.2em;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: .2rem;
+    text-decoration-color: rgb(7, 147, 172);
 	font-weight: bolder;
 	text-transform: uppercase;
 	color: black;
     padding-top: 5rem;
-    padding-left: 5rem;
 
 }
 /* end of general text styling */
