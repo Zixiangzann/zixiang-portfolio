@@ -47,10 +47,10 @@
     transition: all .1s ease-in; 
 }
 
-#mobile-menu-icon:active{
+/* #mobile-menu-icon:active{
     color: #0087ca;
     transform: scale(1.2);
-}
+} */
 
 .mobile-menu{
     background-color: rgb(187, 210, 230);
@@ -71,11 +71,11 @@
     transition: all .2s ease-in-out;
 }
 
-.mobile-menu li:active{
+/* .mobile-menu li:active{
     color: #0087ca;
     transform: rotateY(30deg);
 
-}
+} */
 
 
 
@@ -153,6 +153,7 @@
     background-color: #353b48;
     color: white;
     padding: 3rem;
+    font-size: 0.8rem;
     font-family: monospace;
 }
 

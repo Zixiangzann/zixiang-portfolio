@@ -101,10 +101,10 @@
                     <b>Address:</b> Singapore
                     <br>
                     <a href="https://www.facebook.com/ZiXiangZann">
-                        <i class="fab fa-facebook-f fa-1x"></i>
+                        <i class="fab fa-facebook-f fa-2x"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/zheng-zixiang-921a44222">
-                        <i class="fa-brands fa-linkedin fa-1x"></i>
+                        <i class="fa-brands fa-linkedin fa-2x"></i>
                     </a>
 
 
@@ -342,7 +342,7 @@
                     CONTACT ME
 
                 </div>
-                <form action="/action_page.php">
+                <form id="form" class="form" method="post" action="contact-form-process.php">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="First Name">
 
@@ -401,6 +401,9 @@
         //Inner div to also go back to top when click on the nav item.
         $("#navbar-mobile-home").click(function () {
             scrollToElement($("#homepage"), 500);
+            $("#content-employment").scrollTop(0,0);
+            $("#content-education").scrollTop(0,0);
+            $("#content-skills").scrollTop(0,0);
             openMenu();
         });
 
@@ -434,8 +437,11 @@
             var mobilemenu = $('#mobile-menu');
             if (mobilemenu.get(0).style.display === "block") {
                 mobilemenu.get(0).style.display = "none";
+                $("#mobile-menu-icon").get(0).style.color ="rgb(112, 114, 211)";
+
             } else {
                 mobilemenu.get(0).style.display = "block";
+                $("#mobile-menu-icon").get(0).style.color = "rgb(0, 135, 202)";
             }
         };
 
