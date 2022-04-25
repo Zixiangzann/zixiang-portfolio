@@ -342,11 +342,20 @@
                     CONTACT ME
 
                 </div>
-                <form id="form" class="form" method="post" action="contact-form-process.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="First Name">
+                <!-- hosting on github pages, does not support php form submission -->
+                    <form action="https://formspree.io/f/zixiangzann@gmail.com" method="post">
+                    <label for="name">First Name</label>
+                    <input type="text" name="name" placeholder="Name">
+                    <label for="email">Email</label>
+                    <input type="email" name="_replyto" placeholder="Email">
+                    <label for="body">Subject</label>
+                    <textarea name="body" placeholder="Message" style="height:300px";></textarea>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Send">
+                    
 
-                    <label for="lname">Last Name</label>
+                    <!-- <form id="form" class="form" method="post" action="contact-form-process.php"> -->
+                    <!-- <label for="lname">Last Name</label>
                     <input type="text" id="lname" name="lastname" placeholder="Last name">
 
                     <label for="email">Email</label>
@@ -358,7 +367,7 @@
                         style="height:200px"></textarea>
 
                     <input type="reset" value="Reset">
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit"> -->
 
                 </form>
 

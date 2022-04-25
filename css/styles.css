@@ -331,6 +331,11 @@
     font-family: 'Arapey';
     font-size: 1rem;
   }
+
+  .content2 .contact-form label{
+    font-family: monospace;
+    font-size: 1rem;
+  }
   
   .content2 .contact-form input[type=submit],[type=reset] {
     font-family: 'Arapey';
