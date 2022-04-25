@@ -214,6 +214,7 @@
 }
 
 .content2 .employment .employment-date,.education-date{
+    display: inline-block;
     font-family: 'Lobster',sans-serif;
     background-color: #b3e4dd;
     border: 1px solid black;
@@ -255,7 +256,9 @@
 }
 
 .content2 .skills-header{
-    font-family: 'FontAwesome','Open Sans', sans-serif;
+    font-family: 'Oswald','Open Sans', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
     text-align: center;
     text-decoration: underline;
     text-decoration-thickness: .2rem;
@@ -434,10 +437,11 @@
 }
 
 .content2 .subheader{
-    font-family: 'FontAwesome','Open Sans', sans-serif;
+    font-family: 'Oswald','Open Sans', sans-serif;
 	font-size: 1.2em;
     text-align: center;
     text-decoration: underline;
+    letter-spacing: 0.15rem;
     text-decoration-thickness: .2rem;
     text-decoration-color: rgb(7, 147, 172);
 	font-weight: bolder;
@@ -522,9 +526,9 @@
     }
 
     @media only screen and (max-width: 400px) {
-        .subheader-left{
+        /* .subheader-left{
             font-size: 1rem;
-        }
+        } */
 
         .contact{
             font-size: .8rem;

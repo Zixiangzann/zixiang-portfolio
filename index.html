@@ -183,7 +183,7 @@
 
             <div class="education" id="content-education">
                 <div class="subheader">
-                    My Education
+                    Education
                 </div>
 
                 <i class="fa-solid fa-graduation-cap fa-2x"></i>
@@ -397,24 +397,30 @@
 
 
         //MOBILE navbar function
-        //Navbar to close when click on any of the list item
+        //Navbar to close when click on any of the nav item
+        //Inner div to also go back to top when click on the nav item.
         $("#navbar-mobile-home").click(function () {
             scrollToElement($("#homepage"), 500);
             openMenu();
         });
 
-        $("#navbar-mobile-education").click(function () {
-            scrollToElement($("#content-education"), 400);
+        $("#navbar-mobile-resume").click(function () {
+            scrollToElement($("#content-employment"), 400);
+            $("#content-employment").scrollTop(0,0);
+            $("#content-education").scrollTop(0,0);
+            $("#content-skills").scrollTop(0,0);
             openMenu();
         });
 
-        $("#navbar-mobile-resume").click(function () {
-            scrollToElement($("#content-employment"), 400);
+        $("#navbar-mobile-education").click(function () {
+            scrollToElement($("#content-education"), 400);
+            $("#content-education").scrollTop(0,0);
             openMenu();
         });
 
         $("#navbar-mobile-skills").click(function () {
             scrollToElement($("#content-skills"), 400);
+            $("#content-skills").scrollTop(0,0);
             openMenu();
         });
 
