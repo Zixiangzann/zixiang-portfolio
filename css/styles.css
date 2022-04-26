@@ -155,7 +155,17 @@
     padding: 3rem;
     font-size: 0.8rem;
     font-family: monospace;
+    box-sizing: border-box;
 }
+
+.content .contact a:not(:nth-child(11)){
+    color: lightskyblue;
+    transition: all 0.3s ease-in-out;
+}
+
+.content .contact a:not(:nth-child(11)):hover {
+    color: cadetblue;
+  }
 
 /* icon */
 .contact i {
@@ -165,7 +175,7 @@
     transition: all 1s;
 }
 
-.contact i:hover {
+.contact i:hover{
     transform: scale(1.5);
     color: blue;
    
